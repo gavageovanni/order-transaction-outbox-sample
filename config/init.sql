@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS  order_item
 
 -- initial data
 
+
 INSERT INTO "order" (id, "status", client_id, scheduled) VALUES ('f7b3b3b1-1b1b-4b1b-8b1b-1b1b1b1b1b1b', 'CREATED', 'f7b3b3b1-1b1b-4b1b-8b1b-1b1b1b1b1b1b', '2021-01-01 00:00:00');
 INSERT INTO "order" (id, "status", client_id, scheduled) VALUES ('7afd3d2d-3e46-4197-a8e7-85fb74169dda', 'CREATED', 'c98ba512-33fd-4d13-aa71-a2e6e20d7d45', '2021-01-01 00:03:00');
 INSERT INTO "order" (id, "status", client_id, scheduled) VALUES ('2141f61e-f0b3-4197-909d-5c6ca98dae37', 'CREATED', 'c98ba512-33fd-4d13-aa71-a2e6e20d7d45', '2021-01-01 00:03:00');
